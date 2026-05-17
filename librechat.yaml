@@ -2,10 +2,9 @@ version: 1.3.5
 cache: true
 endpoints:
   custom:
-    - name: "Custom Provider"
+    - name: "OpenRouter"
       apiKey: "user_provided"
       baseURL: "user_provided"
       models:
         fetch: true
-      titleConvo: true
-      modelDisplayLabel: "Custom AI"
+      modelDisplayLabel: "OpenRouter"
