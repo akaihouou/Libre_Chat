@@ -3,7 +3,7 @@ cache: true
 endpoints:
   custom:
     - name: "OpenRouter"
-      apiKey: "${user_provided}"
+      apiKey: "user_provided"
       baseURL: "https://openrouter.ai/api/v1"
       models:
         default: ["meta-llama/llama-3-70b-instruct"]
